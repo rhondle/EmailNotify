@@ -2,7 +2,7 @@
 
 A WordPress notification plugin
 
-This utility sends an email notification to a predefined list of recipients whenever a new blog post is published.
+This utility sends an email notification to a predefined list of recipients whenever a new blog post is published. This is particularly useful if you wish to notify people that a new blog post has been published.
 
 
 ## Installation
