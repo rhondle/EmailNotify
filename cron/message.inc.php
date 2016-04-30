@@ -3,9 +3,9 @@
  * An example message template. This is the HTML body that is used as a message template, the
  * variables %%POST_URL%%, %%TITLE%% and %%NAME%% are replaced with their respective values.
  *
- * @author		Marty Anstey (rhondle@users.noreply.github.com)
- * @copyright	(C) Copyright 2015-2016 Marty Anstey
- * @license		GNU LGPLv3 (www.gnu.org/licenses/lgpl-3.0.txt)
+ * @author    Marty Anstey (rhondle@users.noreply.github.com)
+ * @copyright (C) Copyright 2015-2016 Marty Anstey
+ * @license   GNU LGPLv3 (www.gnu.org/licenses/lgpl-3.0.txt)
  *
  */
 
