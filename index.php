@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: EmailNotify
-Plugin URI: https://github.com/rhondle/WP_EmailNotify
+Plugin URI: https://github.com/rhondle/EmailNotify
 Description: Sends an email to a predefined list of recipients whenever a new post is published.
 Version: 1.0
 Author: Marty Anstey
