@@ -2,13 +2,13 @@
 /**
  * A utility to check for new pending messages and batch deliver.
  *
- * This script was built as part of WP_EmailNotify plugin for WordPress.
+ * This script is part of EmailNotify plugin for WordPress.
  *
  * Usage: run via cron eg every x mins
  *
- * @author		Marty Anstey (rhondle@users.noreply.github.com)
- * @copyright	(C) Copyright 2015-2016 Marty Anstey
- * @license		GNU LGPLv3 (www.gnu.org/licenses/lgpl-3.0.txt)
+ * @author      Marty Anstey (rhondle@users.noreply.github.com)
+ * @copyright   (C) Copyright 2015-2016 Marty Anstey
+ * @license     GNU LGPLv3 (www.gnu.org/licenses/lgpl-3.0.txt)
  *
  * Requires:	PHPMailer (https://github.com/PHPMailer/PHPMailer)
  */
