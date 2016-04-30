@@ -4,6 +4,10 @@ A WordPress notification plugin
 
 This utility sends an email notification to a predefined list of recipients whenever a new blog post is published. This is particularly useful if you wish to notify people that a new blog post has been published.
 
+Although this plugin works well and has been tested in production for almost two years prior to the code being released here on GitHub, it should be pointed out that there is no user interface available (particularly for listing/adding/removing entries from the notification list), as well as some important missing features including bounce detection/autoremoval and automated unsubscription handling (eg when a link is clicked from the footer of the email).
+
+While this tool has served me well, it clearly has room for improvement. Enhancements welcome.
+
 
 ## Installation
 
