@@ -11,8 +11,8 @@ License: LGPLv3
 
 function emailnotify_queue_email($post) {
 	global $wpdb;
-	$tbl = $wpdb->prefix.'emailnotify_emails';						// this is the table that holds the message queue
-	if ($post->post_status!='publish') return;						// skip if not directly a published post
+	$tbl = $wpdb->prefix.'emailnotify_emails';		// this is the table that holds the message queue
+	if ($post->post_status!='publish') return;		// skip if not directly a published post
 	$wpdb->insert($tbl,
 		array(
 			'subject'=>'',
@@ -24,5 +24,5 @@ function emailnotify_queue_email($post) {
 	);
 }
 
-add_action('future_to_publish', 'emailnotify_queue_email');
-add_action('draft_to_publish', 'emailnotify_queue_email');
+add_action('future_to_publish',	'emailnotify_queue_email');
+add_action('draft_to_publish',	'emailnotify_queue_email');
